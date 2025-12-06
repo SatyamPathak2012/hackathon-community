@@ -8,10 +8,13 @@
     padding: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
+    z-index: 10;
+    /* display: none; */
 }
 .websitename{
     font-size: 45px;
-    margin-left: 2vw;
+    margin-left: 1vw;
+    margin-top: 0.5vh;
 }
 .loginbtn{
     font-size: 35px;
@@ -22,4 +25,81 @@
     border: 1px solid rgb(0, 174, 255);
     margin-left: 2vw;
     cursor: pointer;
+}
+.logo{
+    height: 7vh;
+    margin-left: 2vw;
+}
+.firstpage{
+    background-image: url(downloa.jpg);
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name1{
+    color: white;
+    font-size: 60px;
+    margin-left: 5vw;
+    position: relative;
+    top: 20vh;
+    /* margin-top: 10vh; */
+}
+.quote{
+    color: white;
+    position: relative;
+    top: 25vh;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    width: 25vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: end;
+}
+.loginbtn1{
+    font-size: 35px;
+    padding:  0.7rem 5rem;
+    border-radius: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: 1px solid rgb(0, 174, 255);
+    margin-left: 2vw;
+    cursor: pointer;
+    position: relative;
+    /* top: 30vh; */
+    left: 5vw;
+    bottom: 10vh;
+}
+.img{
+    border-radius: 10px;
+    position: relative;
+    width: 80vh;
+    left: 40vw;
+}
+.problems{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 40px;
+}
+.addicon{
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid rgb(15, 199, 245);
+    font-size: 30px;
+    background-color: rgb(15, 199, 245);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* text-align: end; */
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+.probleminput{
+    padding: 2rem 1rem 1rem 1rem;
+    width: 30vw;
+    border-radius: 10px;
+    border:1px solid black;
+    margin-left: 1vw;
+}
+.probleminput::placeholder{
+    font-size: 30px;
 }
