@@ -11,17 +11,21 @@ let problemlocation = document.querySelector(".problemlocation")
 
 let problemsname = document.querySelector(".problemsname");
 let records = document.querySelector(".records");
+let helppage = document.querySelector(".helppage");
 
 
 addicon.addEventListener("click", () => {
     page0.style.display = "none";
     page1.style.display = "flex";
+    records.style.display = "none"
+    helppage.style.display = "none";
 })
 
 sendbtn.addEventListener("click", () => {
     page0.style.display = "block";
     page1.style.display = "none";
     records.style.display = "none"; 
+    helppage.style.display = "none";
 
     probleminput1 = probleminput.value;
     // console.log(probleminput1)
@@ -60,14 +64,40 @@ let loginbtn1 = document.querySelector(".loginbtn1");
 let signin = document.querySelector(".signin");
 
 loginbtn.addEventListener("click", () => {
-    page0.style.display = "none";
-    page1.style.display = "none";
-    signin.style.display = "block";
+    loginbtn.style.display = "none";
+    loginbtn1.style.display = "none";
+})
+loginbtn1.addEventListener("click", () => {
+    loginbtn.style.display = "none";
+    loginbtn1.style.display = "none";
+
 })
 
-loginbtn1.add("click", () => {
+// loginbtn1.addEventListener("click", () => {
+//     page0.style.display = "none";
+//     page1.style.display = "none";
+//     helppage.style.display = "none";
+// })
+
+let helpbtn = document.querySelector(".helpbtn");
+
+helpbtn.addEventListener("click", () => {
     page0.style.display = "none";
     page1.style.display = "none";
+    helppage.style.display = "block";
 })
 
+let yesbtn = document.querySelector(".yeschoice");
+let nobtn = document.querySelector(".nochoice");
 
+yesbtn.addEventListener("click", () => {
+    page0.style.display = "block";
+    helppage.style.display = "none";
+    // helpbtn.style.display = "none";
+    helpbtn.innerHTML = "Helping";
+})
+
+nobtn.addEventListener("click", () => {
+    page0.style.display = "block";
+    helppage.style.display = "none";
+})

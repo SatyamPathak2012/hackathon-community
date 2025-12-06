@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,23 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/86c69c1c6c.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="page">
-         <div class="topnavbar">
+        <div class="topnavbar">
             <img src="110355.png" alt="" class="logo">
             <h1 class="websitename">HelpingHarbor</h1>
-            <button class="loginbtn">Log In</button>
-         </div>
-         <div class="firstpage">
+            <button class="loginbtn"><a class="a" href="login.html">Log In</a></button>
+        </div>
+        <div class="firstpage">
             <h1 class="name1">HelpingHarbor</h1>
-            <p class="quote">Send your problems to the community and help others. Improve your trust between your neighbourhood</p>
-            <button class="loginbtn1">Log In ➡</button>
+            <p class="quote">Send your problems to the community and help others. Improve your trust between your
+                neighbourhood</p>
+            <button class="loginbtn1"><a class="a" href="login.html">Log In </a></button>
 
             <img src="download (1).jpg" alt="" class="img">
-         </div>
-         <div class="problemsender">
+        </div>
+        <div class="problemsender">
             <h1 class="problems">Problems</h1>
 
             <div class="addproblem">
@@ -34,10 +37,34 @@
                 </div>
                 <div class="problemsname">
                     <p class="myproblems">My Problems :-</p>
-                    
+
+                    <div class="records">
+                        <i class="ri-file-paper-2-line norecords"></i>
+                        <p class="norecordsname">No Records</p>
+                    </div>
+                </div>
+                <div class="otherproblems">
+                    <p class="otherproblemsname">Other people's problems :-</p>
+
+                    <div class="problem2">
+                        <div>
+                            <p class="problemperson">By: Ram Narayan</p>
+                            <p class="problemname">Problem: My car's tyre got punctured</p>
+                            <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                        </div>
+                        <button class="helpbtn">Help</button>
+                    </div>
+                    <div class="problem2">
+                        <div>
+                            <p class="problemperson">By: Udgam KC</p>
+                            <p class="problemname">Problem: My car's tyre got punctured</p>
+                            <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                        </div>
+                        <button class="helpbtn">Help</button>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
     </div>
     <div class="page1">
         <h1 class="addproblem1">Add your problems</h1>
@@ -48,6 +75,24 @@
         <button class="sendbtn">Send</button>
         <img src="human-problem-hopeless-situation-conceptual-260nw-104504270.jpg" class="problemimg" alt="">
     </div>
+
+    <div class="helppage">
+        <h1 class="helpname">Help Your Neighbour</h1>
+
+        <p class="personname" style="margin-top: 5vh;">By: Ram Narayan</p>
+        <p class="personproblem">Problem: My car's tyre got punctured</p>
+        <p class="personlocation">Location: Balkot,Bhaktapur</p>
+
+        <p class="question">Do you want to help MR. Ram Narayan?</p>
+
+        <div class="choice">
+            <button class="yeschoice">Yes</button>
+            <button class="nochoice">No</button>
+        </div>
+    </div>
+
+
     <script src="scirpt.js"></script>
 </body>
+
 </html>

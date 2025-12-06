@@ -1,0 +1,46 @@
+.signin{
+    text-align: center;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: monospace;
+    margin-left: 80vh;
+    margin-top: 10vh;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 5px grey;
+
+}
+#signmail{
+    margin-bottom: 5px;
+}
+body{
+   background-color: rgb(233, 240, 233);
+}
+.btn-sign{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    background-color:rgb(84, 58, 229);
+    color: white;
+    border-radius: 10px;
+}
+.btn-sign:hover{
+    background-color: black;
+    color: white;
+}
+.signlogo{
+    width: 25vh;
+    height: 25vh;
+}
+.signin-or{
+    color: grey;
+}
+
+.signin-text input{
+     margin-top: 7px;
+}
+.btn-sign a{
+    color: white;
+    text-decoration: none;
+}
