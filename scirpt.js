@@ -42,7 +42,7 @@ sendbtn.addEventListener("click", () => {
 
     let problemperson = document.createElement("p");
     problemperson.classList.add("problemperson");
-    problemperson.innerHTML= "Hello";
+    problemperson.innerHTML= "By: Satyam Pathak";
     problem1.appendChild(problemperson);
 
     let problemname = document.createElement("p");
@@ -81,7 +81,7 @@ loginbtn1.addEventListener("click", () => {
 
 let helpbtn = document.querySelector(".helpbtn");
 
-helpbtn.addEventListener("click", () => {
+    helpbtn.addEventListener("click", () => {
     page0.style.display = "none";
     page1.style.display = "none";
     helppage.style.display = "block";
@@ -95,9 +95,16 @@ yesbtn.addEventListener("click", () => {
     helppage.style.display = "none";
     // helpbtn.style.display = "none";
     helpbtn.innerHTML = "Helping";
+
+    points.innerHTML = "Points: 25"
+
 })
 
 nobtn.addEventListener("click", () => {
     page0.style.display = "block";
     helppage.style.display = "none";
 })
+
+let points = document.querySelector(".points");
+
+

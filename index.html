@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HelpingHarbor</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="110355.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
         integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +18,9 @@
         <div class="topnavbar">
             <img src="110355.png" alt="" class="logo">
             <h1 class="websitename">HelpingHarbor</h1>
+            <img src="ChatGPT Image Dec 6, 2025, 05_03_09 PM.png" alt="" class="pointimg">
+            <p class="points">Points: 0</p>
+            <a class="a1" href="">Rewards</a>
             <button class="loginbtn"><a class="a" href="login.html">Log In</a></button>
         </div>
         <div class="firstpage">
@@ -48,17 +52,35 @@
 
                     <div class="problem2">
                         <div>
-                            <p class="problemperson">By: Ram Narayan</p>
-                            <p class="problemname">Problem: My car's tyre got punctured</p>
-                            <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                            <div style="display: flex;">
+                                <i class="ri-user-fill personnameicon"></i>
+                                <p class="problemperson">By: Ram Narayan</p>
+                            </div>
+                            <div style="display: flex;">
+                                <i class="ri-error-warning-fill personnameicon"></i>
+                                <p class="problemname">Problem: My car's tyre got punctured</p>
+                            </div>
+                            <div style="display: flex;">
+                                <i class="ri-map-pin-line personnameicon"></i>
+                                <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                            </div>
                         </div>
                         <button class="helpbtn">Help</button>
                     </div>
-                    <div class="problem2">
+                    <div class="problem2" style="margin-bottom: 5vh;">
                         <div>
-                            <p class="problemperson">By: Udgam KC</p>
-                            <p class="problemname">Problem: My car's tyre got punctured</p>
-                            <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                            <div style="display: flex;">
+                                <i class="ri-user-fill personnameicon"></i>
+                                <p class="problemperson">By: Ram Narayan</p>
+                            </div>
+                            <div style="display: flex;">
+                                <i class="ri-error-warning-fill personnameicon"></i>
+                                <p class="problemname">Problem: My car's tyre got punctured</p>
+                            </div>
+                            <div style="display: flex;">
+                                <i class="ri-map-pin-line personnameicon"></i>
+                                <p class="problemlocation">Location: Balkot,Bhaktapur</p>
+                            </div>
                         </div>
                         <button class="helpbtn">Help</button>
                     </div>
@@ -78,10 +100,12 @@
 
     <div class="helppage">
         <h1 class="helpname">Help Your Neighbour</h1>
-
+        
         <p class="personname" style="margin-top: 5vh;">By: Ram Narayan</p>
         <p class="personproblem">Problem: My car's tyre got punctured</p>
         <p class="personlocation">Location: Balkot,Bhaktapur</p>
+
+        <p class="personpoints">Points you will get: 25</p>
 
         <p class="question">Do you want to help MR. Ram Narayan?</p>
 
@@ -91,6 +115,7 @@
         </div>
     </div>
 
+    <a href="index.html"><i class="ri-arrow-up-s-line uparrow"></i></a>
 
     <script src="scirpt.js"></script>
 </body>
