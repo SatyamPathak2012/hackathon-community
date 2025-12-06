@@ -94,7 +94,7 @@
     margin-top: 2vh;
 }
 .probleminput{
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     width: 30vw;
     border-radius: 10px;
     border:1px solid black;
@@ -109,14 +109,15 @@
     border-radius: 10px;
     width: 63vw;
     margin-left: 18vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 .problemperson{
     font-size: 30px;
 }
-.problemname{
+.problemname, .problemlocation{
     font-size: 35px;
 }
 .helpbtn{
@@ -127,9 +128,119 @@
     color: white;
     border: 1px solid rgb(77, 199, 77);
     border-radius: 5px;
+    cursor: pointer;
 }
 .addurproblem{
     margin-top: 3vh;
     font-size: 40px;
     margin-left: 1vw;
+}
+
+.myproblems{
+    font-size: 25px;
+    margin-left: 20vw;
+}
+.page1{
+    display: flex;
+    display:none;
+    flex-direction: column;
+}
+.page{
+    display: block;
+}
+.addproblem1{
+    font-size: 50px;
+    margin-top: 2vh;
+    text-align: center;
+}
+.probleminput{
+    margin-top: 5vh;
+    height: 3vh;
+    font-size: 30px;
+}
+.problemimg{
+    position: absolute;
+    height: 50vh;
+    left: 50vw;
+    top: 30vh;
+}
+
+.probleminput1{
+    padding: 2rem 1rem 2rem 1rem;
+    width: 30vw;
+    border-radius: 10px;
+    border:1px solid black;
+    margin-left: 1vw;
+    height: 2vh;
+    margin-top: 2vh;
+    font-size: 30px;
+}
+.sendbtn{
+    font-size: 35px;
+    width: 10vw;
+    padding:  0.7rem 3rem;
+    border-radius: 10px;
+    background-color: rgb(0, 174, 255);
+    color: white;
+    border: 1px solid rgb(0, 174, 255);
+    margin-left: 2vw;
+    cursor: pointer;
+    margin-top: 4vh;
+    margin-left: 10vw;
+}
+.norecords{
+    font-size: 50vh;
+    /* text-align: center; */
+    margin-left: 40vw;
+}
+.norecordsname{
+    font-size: 25px;
+    margin-left: 46vw;
+}
+
+.signin{
+    text-align: center;
+    width: 50vh;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: monospace;
+    margin-left: 80vh;
+    margin-top: 10vh;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 5px grey;
+    display: none;
+
+}
+
+ body{
+   background-color: rgb(233, 240, 233);
+}
+.btn-sign{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    background-color:rgb(84, 58, 229);
+    color: white;
+    border-radius: 10px;
+}
+.btn-sign:hover{
+    background-color: black;
+    color: white;
+}
+.signlogo{
+    width: 25vh;
+    height: 25vh;
+}
+.signin-or{
+    color: grey;
+}
+
+.signin-text input{
+     margin-top: 7px;
+}
+#signmail{
+    margin-bottom: 5px;
+    height: 30px;
+    width: 100px;
 }
