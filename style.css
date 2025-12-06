@@ -103,3 +103,33 @@
 .probleminput::placeholder{
     font-size: 30px;
 }
+.problem1{
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 63vw;
+    margin-left: 18vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.problemperson{
+    font-size: 30px;
+}
+.problemname{
+    font-size: 35px;
+}
+.helpbtn{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-size: 30px;
+    background-color: rgb(77, 199, 77);
+    color: white;
+    border: 1px solid rgb(77, 199, 77);
+    border-radius: 5px;
+}
+.addurproblem{
+    margin-top: 3vh;
+    font-size: 40px;
+    margin-left: 1vw;
+}
