@@ -6,9 +6,120 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .Rewards{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 2vh;
+    }
+  .points-table {
+    width: 90%;
+    /* width: 80; */
+    margin: 10vh 5vw;
+    /* margin: 2rem auto; */
+    border-collapse: collapse;
+    font-family: Poppins, Arial, sans-serif;
+    background: white;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+  }
 
+  .points-table thead {
+    background: linear-gradient(90deg,#00aaff,#0085cc);
+    color: #fff;
+  }
+
+  .points-table th,
+  .points-table td {
+    padding: 1rem 1.2rem;
+    text-align: left;
+    font-size: 3rem;
+  }
+
+  .points-table tbody tr:nth-child(even) {
+    background: #f7fbff;
+  }
+
+  .points-table tbody tr:hover {
+    transform: translateX(6px);
+    transition: transform .15s ease;
+    background: #eef9ff;
+  }
+
+  .points-badge {
+    display: inline-block;
+    padding: .35rem .7rem;
+    border-radius: 999px;
+    background: #00aaff;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  .prize {
+    font-weight: 600;
+    color: #234;
+  }
+  .backbtn{
+    font-size: 40px;
+    /* color: white; */
+    /* text-decoration: none; */
+    background-color: #00aaff;
+    border: 1px solid #00aaff;
+    border-radius: 10px;
+    padding: 0.5rem 2rem;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vw;
+  }
+  .a1{
+    color: white;
+    text-decoration: none;
+  }
 </style>
 <body>
     <h1 class="Rewards">Rewards</h1>
+
+    <table class="points-table" aria-label="Points and Prizes">
+  <thead>
+    <tr>
+      <th>Points</th>
+      <th>Prizes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="points-badge">1000</span></td>
+      <td class="prize">Cash Prize — NPR 15,000</td>
+    </tr>
+    <tr>
+      <td><span class="points-badge">800</span></td>
+      <td class="prize">Smartphone / Gadget</td>
+    </tr>
+    <tr>
+      <td><span class="points-badge">600</span></td>
+      <td class="prize">Gift Card — NPR 5,000</td>
+    </tr>
+    <tr>
+      <td><span class="points-badge">400</span></td>
+      <td class="prize">Sponsored Community Workshop Seat</td>
+    </tr>
+    <tr>
+      <td><span class="points-badge">200</span></td>
+      <td class="prize">Free Meal Voucher (Local Café)</td>
+    </tr>
+    <tr>
+      <td><span class="points-badge">100</span></td>
+      <td class="prize">Participation Certificate + Badge</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="backbtn"><a class="a1" href="index.html">⬅ Back</a></button>
 </body>
 </html>

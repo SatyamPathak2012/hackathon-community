@@ -63,15 +63,6 @@ let loginbtn = document.querySelector(".loginbtn");
 let loginbtn1 = document.querySelector(".loginbtn1");
 let signin = document.querySelector(".signin");
 
-loginbtn.addEventListener("click", () => {
-    loginbtn.style.display = "none";
-    loginbtn1.style.display = "none";
-})
-loginbtn1.addEventListener("click", () => {
-    loginbtn.style.display = "none";
-    loginbtn1.style.display = "none";
-
-})
 
 // loginbtn1.addEventListener("click", () => {
 //     page0.style.display = "none";
